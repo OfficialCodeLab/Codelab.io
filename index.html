@@ -18,8 +18,15 @@ Note: Please use our back link in your site (webthemez.com)
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 </head>
-
+<style>
+@font-face { font-family: NeoGrey; src: url('fonts/NeogreyRegular.ttf'); } 
+h1 {
+font-family: NeoGrey
+}
+</style>
 <body id="home">
 <div class="black-box">
 	<div id="Header">
@@ -29,18 +36,21 @@ Note: Please use our back link in your site (webthemez.com)
 	</div>
 	<div id="Content" class="wrapper"> 
 	<div class="countdown styled"></div> 
-	<h2 class="intro">Our website is under construction. Stay tuned for something amazing! Subscribe to be spammed to hell and beyond.</h2>
+	<h2 class="intro">Our super awesome website is busy being built! Enter your email below to recieve an update when our website is live!</h2>
 	<div id="subscribe"> 
-		<form action="" method="post" onsubmit="">
-			<p><input name="" placeholder="Enter your e-mail" type="text" id=""/>
-			<input type="button" value="Submit"/></p>
+		<form action="" onsubmit="ClearFields();">
+			<p><input name="" placeholder="Enter your e-mail" type="text" id="textfield1"/><input type="text" name="StackOverflow1370021" value="Fix IE bug" style="display:none" />
+			<input type="button" value="Submit" onclick="ClearFields();" /></p>
 		</form>
+		<br />
 		<div id="socialIcons">
 			<ul> 
-				<li><a href="" title="Twitter" class="twitterIcon"></a></li>
-				<li><a href="" title="facebook" class="facebookIcon"></a></li>
+				<li><a href="https://twitter.com/OfficialCodeLab" title="Twitter" class="fa fa-twitter fa-2x"></a></li>
+				<li><a href="https://www.facebook.com/codelab.io" title="facebook" class="fa fa-facebook fa-2x"></a></li>
+				<li><a href="https://github.com/OfficialCodeLab" title="github" class="fa fa-github fa-2x"></a></li>
 			</ul>
 		</div>
+		<br />
 	</div>
 </div>
 </div>

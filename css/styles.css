@@ -6,6 +6,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,600);
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two:700);
+@font-face { font-family: NeoGrey; src: url('NeogreyRegular.otf'); } 
+
 body {
 	color:#FFF; 
 	font-family: 'Open Sans', sans-serif;
