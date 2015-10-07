@@ -8,7 +8,7 @@ $( function() {
 // Add background image
 	$.backstretch('images/road2.jpg');
 	// var endDate = "October 7, 2015T15:03:25";
-	var endDate = '2015-10-07T15:00:48';
+	var endDate = '2015-10-14T15:00:48';
 	$('.countdown.simple').countdown({ date: endDate });
 	$('.countdown.styled').countdown({
 	  date: endDate,
