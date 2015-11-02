@@ -1,69 +1,367 @@
-<!--
-Author: WebThemez
-Author URL: http://webthemez.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-Note: Please use our back link in your site (webthemez.com)
--->
-<!DOCTYPE HTML>
-<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]--> 
-<!--[if IE 7 ]>	<html lang="en" class="ie ie7"> <![endif]--> 
-<!--[if IE 8 ]>	<html lang="en" class="ie ie8"> <![endif]--> 
-<!--[if IE 9 ]>	<html lang="en" class="ie ie9"> <![endif]--> 
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>CodeLab - Coming Soon!</title>
-<meta name="description" content="CodeLab Page under construction">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="assets/img/favicon.png">
+<title>codelab | awesomeness</title>
+<!--Stylesheet-->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/menu.css" rel="stylesheet">
+<link href="assets/css/font-awesome.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet"> 
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<style>
-@font-face { font-family: NeoGrey; src: url('fonts/NeogreyRegular.ttf'); } 
-h1 {
-font-family: NeoGrey
-}
-
-</style>
-<body id="home">
-<div class="black-box">
-	<div id="Header">
-	<div class="wrapper">
-		<h1>CodeLab</h1>	
+<body>
+<div class="page-loader">
+	<img src="assets/img/loader.gif" alt="">
+</div>
+<!-- Header
+================================================== -->
+<header id="header">
+<div id="mega-menu" class="header header-sticky primary-menu icons-no default-skin fadeInUp align-right">
+	<div class="container">
+		<div class="row">
+			<nav class="navbar navbar-default redq" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand large" href="index.html"><img class="top-logo invisible" src="assets/img/logo-header.png" alt="codelab"></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+				<div class="collapse navbar-collapse">
+					<a class="navbar-brand mobile pull-left" href="#"><i class="fa fa-bars"></i><span class="logo-style">&nbsp;CodeLab</span></a>
+					<a class="mobile-menu-close"><i class="fa fa-random"></i></a>
+					<ul class="nav navbar-nav nav-list">
+						<li id="button3">
+							<a href="#"><i class="fa fa-bolt"></i><span class="link-item">Home</span></a>
+						</li>
+						<li class="dropdown redq-fullwidth" id="button1">
+							<a href="index.html#section1" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tasks"></i><span class="link-item"> About Us </span></a>
+						</li>
+						<li class="dropdown redq-fullwidth" id="button2">
+						<a href="index.html#contact-us-cs" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users"></i><span class="link-item"> Contact Us </span></a>
+						<!-- end .dropdown-menu -->
+						</li>
+						<!-- end .dropdown -->
+					</ul>
+					<!-- end .nav .navbar-nav -->
+				</div>
+				<!-- end .navbar-collapse -->
+				<!-- </div> -->
+				<!-- end .container-fluid -->
+			</div>
+			<!-- end .container -->
+			</nav>
+			<!-- end nav -->
+		</div>
+		<!-- end .row -->
+	</div>
+	<!-- end .container -->
+</div>
+<!-- end .header -->
+</header>
+<!-- Animated Intro
+================================================== -->
+<div id="large-header" class="large-header">
+	<canvas id="demo-canvas"></canvas>
+	<h1 class="main-title">codelab<br>
+	<span class="smallh wow zoomIn">Professional Development. Elegant Design.</span><br>
+	<button id="button5" type="button" class="btn btn-default wow fadeInLeft">Tell me more</button>
+	<button id="button4" type="button" class="btn btn-primary wow fadeInRight">Contact Us</button>
+	</h1>
+</div>
+<!-- Features
+================================================== -->
+<section id="section1" class="page-wrapper gray">
+<div class="container">
+	<h2 class="title">Development made easy.</h2>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<p class="lead">
+				 From design to implementation, our teams of talented individuals have the skills to suit your project's needs.<br/>From sleek, responsive design, to functional apps, CodeLab does it all.
+			</p>
 		</div>
 	</div>
-	<div id="Content" class="wrapper"> 
-	<div class="countdown styled"></div> 
-	<h2 style="margin-left:260px;" class="intro">                 WEBSITE BEING FORMULATED...</h2>
-	<div id="subscribe"> 
-		<!--<form action="" onsubmit="ClearFields();">
-			<p><input name="" placeholder="Enter your e-mail" type="text" id="textfield1"/><input type="text" name="StackOverflow1370021" value="Fix IE bug" style="display:none" />
-			<input type="button" value="Submit" onclick="ClearFields();" /></p>
-		</form>-->
-		<br />
-		<div id="socialIcons">
-			<ul> 
-				<li><a href="https://twitter.com/OfficialCodeLab" title="Twitter" class="fa fa-twitter fa-2x"></a></li>
-				<li><a href="https://www.facebook.com/codelab.io" title="facebook" class="fa fa-facebook fa-2x"></a></li>
-				<li><a href="https://github.com/OfficialCodeLab" title="github" class="fa fa-github fa-2x"></a></li>
+	<div class="row">
+		<div class="col-md-4 feature wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.1s">
+			<div class="octa">
+			</div>
+			<i class="fa fa-desktop"></i>
+			<div class="feature-content">
+				<h3>Web Development</h3>
+				<p>
+					 We adhere to modern design standards, using the latest web technologies available.
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4 feature wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.4s">
+			<div class="octa">
+			</div>
+			<i class="fa fa-server"></i>
+			<div class="feature-content">
+				<h3>Server Development</h3>
+				<p>
+					 We write fast, maintainable well structured code, allowing us spend more time adding features instead of fixing bugs.
+				</p>
+			</div>
+		</div>
+		<div class="col-md-4 feature wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.7s">
+			<div class="octa">
+			</div>
+			<i class="fa fa-mobile"></i>
+			<div class="feature-content">
+				<h3>App Development</h3>
+				<p>
+					 We build intuitive applications that respond instantly and interact seamlessly across web, iOS and Android environments.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- About Us
+================================================== -->
+<section class="split">
+<div class="col-md-6" style="height:420px;background-size:cover;background-image:url(assets/img/code-1.jpg);">
+	<div class="overlay" style="background:#303543;opacity:0.4;">
+	</div>
+</div>
+<div class="col-md-6 darkbgcolor" style="height:420px;">
+	<h2 class="title">About Us</h2>
+	<p class="lead">
+		 "We are a team of experienced developers with a passion for coding and design. Whatever the task at hand, we will see it through to completion, to help your project / company become succesful. When it comes to design, we don't cut corners. Our primary focus is on the goal of our customer."
+	</p>
+	<h2 class="title">What we do</h2>
+	<ul class="unstyle checklist">
+		<li>Websites</li>
+		<li>Mobile Apps</li>
+		<li>Web Apps</li>
+		<li>Project Development</li>
+		<li>Technical Support</li>
+	</ul>
+</div>
+</section>
+
+<!-- Team
+================================================== -->
+<section class="page-wrapper gray wow zoomIn">
+<div class="container">
+	<h2 class="title">Founders</h2>
+	<p class="tagline">
+		 Who started it all?
+	</p>
+	<div class="row team-wrap">
+
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img class = " " src="assets/img/user-placeholder.jpg" alt="">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								<span class="accentcolor" style="font-weight:700;">INSPIRATION</span><br/>
+								"herbly herben hooven hooben."
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>Courtney Jooste</h2>
+					<p>
+						 Managing Director
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href=""><i class="fa fa-facebook-square"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+					<a href=""><i class="fa fa-linkedin"></i></a>
+					<a href=""><i class="fa fa-envelope"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img class = " " src="assets/img/user-placeholder.jpg" alt="">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								<span class="accentcolor" style="font-weight:700;">INSPIRATION</span><br/>
+								<i>"Client satisfaction<br/>is our highest priority."</i>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>Carl Eiserman</h2>
+					<p>
+						 Technical Director
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href=""><i class="fa fa-facebook-square"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+					<a href=""><i class="fa fa-linkedin"></i></a>
+					<a href=""><i class="fa fa-envelope"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 col-sm-4 col-xs-12">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img class = " " src="assets/img/user-placeholder.jpg" alt="">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								<span class="accentcolor" style="font-weight:700;">INSPIRATION</span><br/>
+								"It's knowing what needs to be done that brings strength!"
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>Evert Jansen van Vuuren</h2>
+					<p>
+						 Director of Operations
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href=""><i class="fa fa-facebook-square"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+					<a href=""><i class="fa fa-linkedin"></i></a>
+					<a href=""><i class="fa fa-envelope"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Fun Facts
+================================================== -->
+<section id="progress" class="parallax parallax-image" style="background-image:url(assets/img/background2.jpg);">
+<div class="wrapsection">
+	<div class="overlay" style="background:#303543;opacity:0.8;">
+	</div>
+	<div class="container">
+		<div class="parallax-content">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="funfacts text-center">
+						<div class="icon">
+							<i class="fa fa-user"></i>
+						</div>
+						<h2 class="counter" data-from="0" data-to="294" data-speed="2500"></h2>
+						<h4>Happy Clients</h4>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="funfacts text-center">
+						<div class="icon">
+							<i class="fa fa-coffee"></i>
+						</div>
+						<h2 class="counter" data-from="0" data-to="983" data-speed="2500"></h2>
+						<h4>Cups of coffee consumed</h4>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="funfacts text-center">
+						<div class="icon">
+							<i class="fa fa-envelope"></i>
+						</div>
+						<h2 class="counter" data-from="0" data-to="3179" data-speed="2500"></h2>
+						<h4>Emails Answered</h4>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="funfacts text-center">
+						<div class="icon">
+							<i class="fa fa-diamond"></i>
+						</div>
+						<h2 id="percentage" style="font-size:60px;color:#20b2aa;font-weight:700;">100%</h2>
+						<h4>Satisfaction Guaranteed!</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Contact Us -->
+<section id="contact-us-cs" class="page-wrapper gray">
+<div class="container">
+	<h2 class="title">Contact Us</h2>
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<h2 class="lead">We'd like to hear from you! <br>Please describe your project to us and we'll get back to you promptly with a quote.
+			<br>
+			<br>Email: info@codelab.io</h2>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Footer
+================================================== -->
+<section id="footer" class="footer">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<ul class="social-icons">
+				<li class="wow bounceIn animated" data-wow-delay="0.1s"><a href="#."><i class="fa fa-facebook"></i></a></li>
+				<li class="wow bounceIn animated" data-wow-delay="0.2s"><a href="#."><i class="fa fa-twitter"></i></a></li>
+				<!-- <li class="wow bounceIn animated" data-wow-delay="0.3s"><a href="#."><i class="fa fa-google-plus"></i></a></li> -->
+				<li class="wow bounceIn animated" data-wow-delay="0.4s"><a href="#."><i class="fa fa-github"></i></a></li>
+				<!-- <li class="wow bounceIn animated" data-wow-delay="0.5s"><a href="#."><i class="fa fa-pinterest"></i></a></li> -->
 			</ul>
+			<a href="index.html"><img src="assets/img/logo-header.png" class="bot-logo footerlogo wow zoomIn" alt="codelab"></a>
+			<p class="copyright">
+				 &copy; Formulated by codelab.
+			</p>
 		</div>
-		<br />
 	</div>
 </div>
-</div>
-
-<div id="overlay"></div>
-
-<!--Scripts-->
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/Backstretch.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/global.js"></script>
-
+</section>
+<!-- JavaScript
+================================================== -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/parallax.js"></script>
+<script src='assets/js/countto.js'></script>
+<script src="assets/js/portfolio.js"></script>
+<script src="assets/js/animheader.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>

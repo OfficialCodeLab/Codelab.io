@@ -1,0 +1,22 @@
+.accentbgcolor, .btn-primary , .octa:after , .feature-icon, .page-wrapper .tagline:before, .portfolio-filter-list a.active, .team-boxes .separator, .date-icon, .panel-title>a, .panel-title>a.collapsed:hover, .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover, .block1 .btn.color , .thumbbox1 h3, .dentalform, .lrform, .wow-pricing-table>div.featured .wow-pricing-header, .featured .wow-pricing-per,.featured .wow-pricing-cost,.featured .wow-pricing-button .wow-button,.buttoncolor   {
+	background-color:#ff692a;
+}
+a, .accentcolor, .unstyle li:before, .feature.business i , .funfacts .counter{
+	color:#ff692a;
+}
+.btn-primary, .portfolio-filter-list a.active, .portfolio-items article .overlay h3:after , .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover, .block1 .btn.color, .knowledgebase h3 {
+	border-color:#ff692a;
+}
+.funfacts .counter{
+	color:#fff;
+}
+
+@media (min-width:768px) {
+.redq .columns ul a:hover,ul.sub-menu a:hover,.redq a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .default-skin .redq a:hover {
+	color:#fff;
+	}
+.default-skin .redq .dropdown-menu, .default-skin ul.sub-menu {
+  border-top-color: #ff692a;
+	}
+
+}

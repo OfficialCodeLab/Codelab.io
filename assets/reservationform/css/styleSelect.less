@@ -1,0 +1,99 @@
+@data-image-x:'data:image/gif;base64,R0lGODlhCAAIALMAAAAAAP///56lrZifp6GpsaCosJ+nr52lrJujqpqiqZmhqJigp////wAAAAAAAAAAACH5BAEAAAwALAAAAAAIAAgAAAQhkA1GpVyKLswSQolXHcJxVIxgFEWVHAVBtMtLzSeCGkwEADs=';
+/* Style Form*/
+// Multi select tag
+div.ul-select-wrap{
+    min-height:34px;
+    .form-control;
+    padding-top:3px;
+    padding-bottom:3px;
+    height:auto;
+    .tag{
+        display:inline-block;
+        margin:0 2px;
+        padding:3px 24px 3px 5px;
+        font-size:13px;
+        cursor:pointer;
+        .border-top-radius(5px);
+        .border-bottom-radius(5px);
+        background:#F1F1F1;
+        position:relative;
+        margin-bottom:3px;
+        margin-top:3px;
+        &:after{
+            content:'';
+            .square(8px);
+            background:url(@data-image-x) right 50% no-repeat;
+            margin-right:7px;
+            margin-top:8px;
+            position:absolute;
+            top: 0px;
+            right:0px;
+        }
+    }
+    &.tag-block{
+        .tag{
+            display: block;
+        }
+    }
+}
+// Simple select
+div.ul-dropdown-wrap{
+    min-height:34px;
+    .form-control;
+    height:auto;
+    //width:120px;
+    display:inline-block;
+    position:relative;
+    padding-right:30px;
+    cursor:pointer;
+    text-align:left;
+    &:after{
+        content:'';
+        position:absolute;
+        right:10px;
+        top:14px;
+        .arrow;
+        border-color:#CBCAC8;
+        .arrow-down;
+    }
+    .tag{
+        .one-line;
+        display:block;
+        cursor:pointer;
+        border-right:1px solid @input-border;
+        padding-right:5px;
+    }
+}
+ul.ul-select{
+    //.list-unstyled;
+    list-style: none;
+    padding:0;
+    margin:0;
+    background:white;
+    .box-shadow(0 6px 12px rgba(0, 0, 0, 0.176));
+    .border-top-radius(3px);
+    .border-bottom-radius(3px);
+     border: 1px solid @input-border;
+    li{
+        display:block;
+        cursor:pointer;
+        padding:5px 10px;
+        margin:1px 0;
+        &:hover{
+            background:#f1f1f1;
+        }
+        &.select{
+            background:#f1f1f1;
+        }
+        &.selected{
+            font-weight:bold;
+        }
+    }
+}
+div.ul-dropdown-wrap.time-picker{
+    margin-top:10px;
+    width:48%;
+    margin-left:4%;
+    font-size:12px;
+    min-height:30px;
+}

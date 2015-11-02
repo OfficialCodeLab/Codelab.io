@@ -1,3 +1,10 @@
-## CodeLab.io
+CodeLab Website
+===================
 
-Making cool websites
+The Official website for CodeLab.io
+
+
+Find the this repo at http://officialcodelab.github.io/codelab/
+
+
+----------

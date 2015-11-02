@@ -1,0 +1,92 @@
+/* DateTimePicker plugin */
+.datetimepicker{
+    background:white;
+    .border-top-radius(5px);
+    .border-bottom-radius(5px);
+    overflow:hidden;
+    padding:10px;
+    .box-shadow(0 6px 12px rgba(0, 0, 0, 0.176));
+    min-width:200px; // for timepicker only
+    .paging{
+        text-align:center;
+        padding:5px;
+        font-size:12px;
+        position:relative;
+        span{
+            position:absolute;
+            top:0px;
+            display:inline-block;
+            height:100%;
+            line-height:24px;
+            width:20px;
+            cursor:pointer;
+            i{
+                line-height:inherit;
+            }
+            &.prev{
+                left:0px;
+            }
+            &.next{
+                right:0px;
+            }
+        }
+    }
+    table{
+        font-weight:normal;
+        font-size:14px;
+        color:#333333;
+        border-collapse:collapse;
+        width:100%;
+        td{
+            text-align:center;
+            border:1px solid #eee;
+            padding:3px;
+            &.near-month{
+                color:#ccc;
+            }
+            &.cur-date.cur-month{
+                background:#D9EDF7;
+            }
+        }
+        thead{
+            font-weight:bold;
+            td{
+                border:none;
+                border-bottom:2px solid #eee;
+                min-width:40px;
+            }
+        }
+        tbody{
+            td:hover{
+                background:#eee;
+                cursor:pointer;
+            }
+            td.unvailable{
+                color:#eee;
+                background:#F5F5F5;
+                &:hover{
+                    background:#F5F5F5;
+                    cursor:not-allowed;
+                }
+            }
+        }
+    }
+    select{
+        width:48%;
+        margin-top:10px;
+        margin-left:4%;
+        border:1px solid #ccc;
+        &:first-child{
+            margin-left:0;
+        }
+    }
+    .timezone{
+        margin-top:10px;
+        color:#666;
+        font-size:11px;
+        text-align:center;
+    }
+}
+input[readonly].datetime-picker{
+    cursor:pointer;
+}
