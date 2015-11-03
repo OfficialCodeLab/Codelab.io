@@ -2599,7 +2599,9 @@ ul.countdown li p {
 	display: inline-block;
 }
 #cs-menu-mobile-close{
-	margin-right: 10px;
+	/*position: relative;*/
+	margin-right: 20px !important;
+	/*right: 200px;*/
 }
 
 /*=========================*/
