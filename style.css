@@ -2598,6 +2598,9 @@ ul.countdown li p {
 	border-bottom:1px solid;
 	display: inline-block;
 }
+#cs-menu-mobile-close{
+	margin-right: 10px;
+}
 
 /*=========================*/
 /* Responsive */
