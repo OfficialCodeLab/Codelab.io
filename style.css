@@ -51,6 +51,21 @@ a {
 	max-width:360px;
 	margin: 0px auto;
 }
+
+/*Carl*/
+
+.title-custom{
+	letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin: 26px 0 35px 0;
+}
+
+
+
+
+
 /*=========================*/
 /* Page Loader */
 /*=========================*/
@@ -1087,6 +1102,13 @@ ul .tline-holder>li {
 .funfacts h4 {
 	text-transform:uppercase;
 	font-size:14px;
+	margin:22px 0 0px;
+	position:relative;
+	color: #ccc;
+}
+.funfacts h3{
+	text-transform:uppercase;
+	font-size:20px;
 	margin:22px 0 0px;
 	position:relative;
 	color: #ccc;
