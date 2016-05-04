@@ -2879,3 +2879,25 @@ ul.countdown li p {
 #progress{	
   background: url(assets/img/background-office.jpg) no-repeat center center fixed; 
 }
+
+.topicon{
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 100ms ease-in;
+    transform: scale(1);  
+}
+.topicon:hover {
+    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1.15);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1.15);   
+    -moz-transition: all 100ms ease-in;
+    -moz-transform: scale(1.15);
+    transition: all 100ms ease-in;
+    transform: scale(1.15);
+}
