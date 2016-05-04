@@ -2875,3 +2875,7 @@ ul.countdown li p {
 	margin-top: 5px !important;
 	margin-bottom: 35px !important;
 }
+
+#progress{	
+  background: url(assets/img/background-office.jpg) no-repeat center center fixed; 
+}
